@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	int num = 0;
+	scanf_s("%d",&num);
+	int a = num / 100;
+	int b = num / 10 % 10;
+	int c = num % 10;
+	int d = c * 100 + b * 10 + a;
+
+	printf("%d", d);
+	return 0;
+
+}
